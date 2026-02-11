@@ -375,7 +375,6 @@ const ProfileScreen = ({ navigate, onLogout }) => (
     <div className="flex-1 overflow-y-auto px-0 py-4">
       {[
         { icon: MapPin, label: "Saved Addresses", sub: "Manage delivery locations", action: () => navigate('saved-addresses') },
-        { icon: Package, label: "My Orders", sub: "Track active & past orders", action: () => navigate('orders') },
         { icon: ShieldCheck, label: "Warranty Claim", sub: "Register Complaint & Upload Proof", action: () => navigate('warranty') },
         { icon: Info, label: "About Us", sub: "Our Story", action: () => navigate('about') },
         { icon: FileText, label: "Terms & Conditions", sub: "Legal", action: () => navigate('terms') },
